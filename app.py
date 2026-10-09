@@ -52,8 +52,7 @@ class Comment(db.Model):
     )
 
 
-with app.app_context():
-    db.create_all()
+
 
 
 @app.route('/api/register', methods=['POST'])
